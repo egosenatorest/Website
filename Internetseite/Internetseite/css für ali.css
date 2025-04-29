@@ -1,0 +1,52 @@
+body {
+    background-color: darkblue;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
+    }
+    
+    .überschrift{
+      color: rgb(221, 21, 21) ;
+      font-family: 'Open Sans', sans-serif;
+    
+    }
+    .titel2{
+        color: antiquewhite;
+        font-size: 150%;
+    }
+    .titel{
+      font-size: 200%;
+    
+    }
+    .titel3 {
+        color: gold;
+    
+    }
+    .image{
+        padding: 11px;
+        background-color: rgb(134, 5, 5);
+        
+    
+    }
+    .bild{
+        width: 100%;
+      
+    }
+    .navi{
+    
+     font-family: 'Open Sans', sans-serif;
+     text-align: right;
+    
+    
+     
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      margin-left: 17px;
+    }
+    a:hover{
+     text-decoration: underline;
+     color: red; 
+    }

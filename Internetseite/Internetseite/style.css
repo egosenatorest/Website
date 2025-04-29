@@ -1,0 +1,134 @@
+body{ 
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ececec  ;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 4000px;
+    
+    
+    }
+    
+    
+    .bild-image { 
+        width: 100%;
+        height: 800px;
+        object-fit: cover;  /* macht einer Art zaun um Bild*/
+        display: block;   /* bringt brwoser dazu keinen Abstand zwischen untertext und bild zu machen*/
+        object-position: 100% 45%;  /* welcher Anteil gecropped werden soll*/
+    }
+    .headline{ color: #831d17;
+    
+    }
+        
+    .bild-container{ 
+    background-color:white; 
+    padding: 11px;}
+    .bild-container{
+    padding-right: 1;
+}
+    .navibar {
+     display: flex;
+     justify-content: space-between;  /* abstand zwischen 2 elemnten*/
+     align-items: flex-start ;    /* umd navbar auf y achse zu platzieren*/
+     
+    } 
+    
+    
+    a  {
+color: rgb(110, 9, 9) ;
+text-decoration: none;
+margin-left: 40px;
+font-weight: bold;  /*st#rke von font*/
+    
+    }
+    
+    
+a:hover {text-decoration: underline;}
+a:hover{color: rgb(0, 20, 110);}
+    
+.text-highlight{color: gray; font-size: 47px ;}
+    
+    .zwo-Buchstabe{
+    color: rgb(35, 44, 44); 
+    font-size: 44px; 
+    display:flex;
+    justify-content:baseline;
+    }
+    
+    .dro-buchstabe{
+    font-size: 50px; }
+.conat-untertext{
+ background-color: #dedede;   
+ padding: 8px;
+ font-weight: 600;
+}
+.infos{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+text-align: center;
+font-size: 100px;
+ margin-top: 300px;
+      
+
+}
+
+.infos{
+    animation: appear1 forwards;
+animation-timeline: view(40% 1%);
+}
+
+@keyframes appear1{
+from{
+ opacity: 0;
+ transform:  translateY(300px) translateX() scale(0.3) ;
+
+}to { opacity: 1;
+    transform: translateY(0px) translateX(200px) scale(1);
+  
+
+} from{
+
+}
+
+
+}
+.infos1{
+    animation: appear1 forwards; /* l#sst das ding auf dem aniamtion endpuinkt zurück*/
+    font-size: 50px;
+    animation-timeline: view(30% 0.1%);
+}
+.preise{
+   font-size:90px ; 
+   font-style: italic;
+  margin-top: 500px;
+animation: appear2 forwards;
+animation-timeline: view(30% 1%);
+}
+
+
+@keyframes appear2{
+  from{
+transform: translateX(50%) scale(0.3);
+opacity: 0;                                 /* animes noch ähnlihcer zu appear1*/
+ 
+   
+  }
+  to{ transform: translate(30%) scale(1);
+  
+  
+  
+}  
+}
+
+
+.vergleichcont{
+justify-content: space-between;  
+display: flex;
+
+
+}
+.vergleich{
+background-color: #ececec;
+box-shadow: 10px 10px 5px 5px red;
+
+}
